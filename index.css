@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-right: 20px;
+/*  font-size: 1.5em; */
+}
+input[type="number"] {
+  padding: 5px;
+  width: 50px;
+  margin-right: 20px;
+/*  font-size: 1.5em; */
+}
+
+input[type="submit"] {
+  margin-top: 4px;
+  padding: 2px;
+  border: none;
+  width: 70px;
+  height: 28px;
+  font-size: 1.1em;
+  color: white;
+  background-color: green;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+  display: none;
+}
